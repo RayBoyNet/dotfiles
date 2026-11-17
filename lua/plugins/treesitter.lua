@@ -20,6 +20,16 @@ return {
       },
       auto_install = true,
       highlight = { enable = true },
+      -- Expand or shrink a visual selection along syntax-tree nodes.
+      incremental_selection = {
+        enable = true,
+        keymaps = {
+          init_selection = "gnn",
+          node_incremental = "grn",
+          scope_incremental = "grc",
+          node_decremental = "grm",
+        },
+      },
       -- Treesitter indentation remains experimental, so retain Neovim's defaults.
       indent = { enable = false },
     },

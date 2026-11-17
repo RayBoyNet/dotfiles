@@ -1,6 +1,6 @@
 # Local safety copies created before config changes.
 *.bak-*
-*.pre-dotfiles-*
+*.pre-*
 
 # Neovim swap and temporary files.
 *.swp

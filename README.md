@@ -75,6 +75,9 @@ in `lazy-lock.json` for reproducibility.
 
 - `Space` is the leader key; `Space w` saves the current file.
 - `Escape` clears search highlighting.
+- In a buffer with a Treesitter parser, `gnn` starts syntax-node selection;
+  `grn` expands it, `grm` shrinks it, and `grc` expands to the current scope.
+  Use `d`, `c`, or `y` to delete, change, or yank the selected text.
 - `Ctrl-h`, `Ctrl-j`, `Ctrl-k`, and `Ctrl-l` move between splits.
 - `[d` and `]d` move through diagnostics; `Space e` shows the diagnostic under
   the cursor.
